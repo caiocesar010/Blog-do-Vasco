@@ -1,0 +1,667 @@
+data,ano,temporada,rodata,local,adversario,gols_pro,gols_contra,resultado,pontos,arena
+2003-03-29,2003,2003,1,Fora,Guarani,2,4,D,0, Brinco de Ouro
+2003-04-06,2003,2003,2,Casa,Goias,6,4,V,3, São Januário
+2003-04-13,2003,2003,3,Fora,Vitoria,1,2,D,0, Barradão
+2003-04-16,2003,2003,4,Casa,Corinthians,2,2,E,1, São Januário
+2003-04-20,2003,2003,5,Fora,Sao Paulo,1,3,D,0, Morumbi
+2003-04-27,2003,2003,6,Casa,Sao Caetano,1,0,V,3, São Januário
+2003-05-04,2003,2003,7,Fora,Fluminense,0,0,E,1, Maracanã
+2003-05-11,2003,2003,8,Casa,Bahia,1,1,E,1, São Januário
+2003-05-18,2003,2003,9,Fora,Coritiba,1,1,E,1, Couto Pereira
+2003-05-24,2003,2003,10,Casa,Ponte Preta,1,0,V,3, São Januário
+2003-06-01,2003,2003,11,Casa,Atletico-MG,2,2,E,1, São Januário
+2003-06-08,2003,2003,12,Fora,Juventude,0,0,E,1, Alfredo Jaconi
+2003-06-15,2003,2003,13,Casa,Flamengo,1,2,D,0, Maracanã
+2003-06-21,2003,2003,14,Casa,Criciuma,2,0,V,3, São Januário
+2003-06-28,2003,2003,15,Fora,Fortaleza,1,0,V,3, Castelão
+2003-07-05,2003,2003,16,Casa,Parana,1,4,D,0, São Januário
+2003-07-09,2003,2003,17,Fora,Internacional,1,2,D,0, Beira Rio
+2003-07-12,2003,2003,18,Casa,Paysandu,0,2,D,0, São Januário
+2003-07-16,2003,2003,19,Fora,Cruzeiro,1,4,D,0, Mineirão
+2003-07-20,2003,2003,20,Casa,Gremio,2,0,V,3, São Januário
+2003-07-23,2003,2003,21,Fora,Figueirense,0,0,E,1, Orlando Scarpelli
+2003-07-26,2003,2003,22,Fora,Santos,1,2,D,0, Vila Belmiro
+2003-08-03,2003,2003,23,Casa,Athletico-PR,2,1,V,3, São Januário
+2003-08-06,2003,2003,24,Fora,Goias,1,3,D,0, Serra Dourada
+2003-08-10,2003,2003,25,Casa,Guarani,0,0,E,1, São Januário
+2003-08-16,2003,2003,26,Casa,Vitoria,1,0,V,3, São Januário
+2003-08-20,2003,2003,27,Fora,Corinthians,0,0,E,1, Pacaembu
+2003-08-24,2003,2003,28,Casa,Sao Paulo,3,2,V,3, São Januário
+2003-08-31,2003,2003,29,Fora,Sao Caetano,0,1,D,0, Anacleto Campanella
+2003-09-14,2003,2003,30,Casa,Fluminense,1,0,V,3, Maracanã
+2003-09-21,2003,2003,31,Fora,Bahia,0,3,D,0, Fonte Nova
+2003-09-25,2003,2003,32,Casa,Coritiba,2,1,V,3, São Januário
+2003-09-28,2003,2003,33,Fora,Ponte Preta,2,2,E,1, Moisés Lucarelli
+2003-10-05,2003,2003,34,Fora,Atletico-MG,1,2,D,0,  Independência
+2003-10-08,2003,2003,35,Casa,Juventude,1,1,E,1, Maracanã
+2003-10-12,2003,2003,36,Fora,Flamengo,1,2,D,0, Maracanã
+2003-10-19,2003,2003,37,Fora,Criciuma,1,2,D,0, Heriberto Hulse
+2003-10-23,2003,2003,38,Casa,Fortaleza,1,1,E,1,  Vivaldo Lima
+2003-10-26,2003,2003,39,Fora,Parana,3,3,E,1, Orlando Scarpelli
+2003-11-02,2003,2003,40,Casa,Internacional,0,1,D,0,  Batistão
+2003-11-05,2003,2003,41,Fora,Paysandu,2,1,V,3, Mangueirão
+2003-11-09,2003,2003,42,Casa,Cruzeiro,0,1,D,0,  Pedro Pedrossian
+2003-11-22,2003,2003,43,Fora,Gremio,3,4,D,0, Olímpico
+2003-11-29,2003,2003,44,Casa,Figueirense,1,0,V,3, São Januário
+2003-12-06,2003,2003,45,Fora,Athletico-PR,2,2,E,1, Arena da Baixada
+2003-12-14,2003,2003,46,Casa,Santos,1,1,E,1, São Januário
+2004-04-22,2004,2004,1,Casa,Criciuma,0,1,D,0, São Januário
+2004-04-25,2004,2004,2,Fora,Atletico-MG,1,1,E,1, Mineirão
+2004-04-29,2004,2004,3,Casa,Guarani,0,1,D,0, São Januário
+2004-05-02,2004,2004,4,Fora,Fluminense,0,1,D,0, Maracanã
+2004-05-08,2004,2004,5,Casa,Gremio,1,1,E,1, São Januário
+2004-05-15,2004,2004,6,Fora,Paysandu,2,1,V,3, Mangueirão
+2004-05-23,2004,2004,7,Fora,Sao Caetano,2,3,D,0, Anacleto Campanella
+2004-05-30,2004,2004,8,Casa,Botafogo-RJ,4,0,V,3, Maracanã
+2004-06-13,2004,2004,9,Fora,Palmeiras,2,2,E,1,  Parque Antártica
+2004-06-19,2004,2004,10,Casa,Parana,0,0,E,1, São Januário
+2004-06-27,2004,2004,11,Fora,Internacional,3,1,V,3, Beira Rio
+2004-07-03,2004,2004,12,Fora,Figueirense,2,2,E,1, Orlando Scarpelli
+2004-07-06,2004,2004,13,Casa,Vitoria,3,1,V,3, São Januário
+2004-07-10,2004,2004,14,Fora,Flamengo,1,0,V,3, Maracanã
+2004-07-13,2004,2004,15,Casa,Coritiba,2,3,D,0, São Januário
+2004-07-17,2004,2004,16,Fora,Ponte Preta,2,3,D,0, Moisés Lucarelli
+2004-07-20,2004,2004,17,Casa,Cruzeiro,3,2,V,3, São Januário
+2004-07-24,2004,2004,18,Fora,Sao Paulo,0,1,D,0, Morumbi
+2004-07-29,2004,2004,19,Casa,Goias,3,1,V,3, São Januário
+2004-08-01,2004,2004,20,Fora,Juventude,1,1,E,1, Alfredo Jaconi
+2004-08-04,2004,2004,21,Casa,Corinthians,1,3,D,0, São Januário
+2004-08-08,2004,2004,22,Fora,Athletico-PR,0,2,D,0, Arena da Baixada
+2004-08-11,2004,2004,23,Casa,Santos,2,3,D,0, São Januário
+2004-08-15,2004,2004,24,Fora,Criciuma,0,1,D,0, Heriberto Hulse
+2004-08-19,2004,2004,25,Casa,Atletico-MG,3,0,V,3, São Januário
+2004-08-22,2004,2004,26,Fora,Guarani,1,1,E,1, Brinco de Ouro
+2004-08-29,2004,2004,27,Casa,Fluminense,1,1,E,1, Maracanã
+2004-09-02,2004,2004,28,Fora,Gremio,2,1,V,3, Olímpico
+2004-09-07,2004,2004,29,Casa,Paysandu,0,1,D,0, São Januário
+2004-09-11,2004,2004,30,Casa,Sao Caetano,1,2,D,0, Maracanã
+2004-09-19,2004,2004,31,Fora,Botafogo-RJ,2,2,E,1, Maracanã
+2004-09-26,2004,2004,32,Casa,Palmeiras,2,5,D,0, São Januário
+2004-09-29,2004,2004,33,Fora,Parana,1,2,D,0, Pinheirão
+2004-10-02,2004,2004,34,Casa,Internacional,2,0,V,3, São Januário
+2004-10-06,2004,2004,35,Casa,Figueirense,1,0,V,3, São Januário
+2004-10-16,2004,2004,36,Fora,Vitoria,1,4,D,0, Barradão
+2004-10-24,2004,2004,37,Casa,Flamengo,1,0,V,3, Maracanã
+2004-10-27,2004,2004,38,Fora,Coritiba,1,0,V,3, Couto Pereira
+2004-10-31,2004,2004,39,Casa,Ponte Preta,2,2,E,1, São Januário
+2004-11-07,2004,2004,40,Fora,Cruzeiro,2,3,D,0, Mineirão
+2004-11-14,2004,2004,41,Casa,Sao Paulo,0,0,E,1, São Januário
+2004-11-21,2004,2004,42,Fora,Goias,2,3,D,0, Serra Dourada
+2004-11-28,2004,2004,43,Casa,Juventude,1,1,E,1, São Januário
+2004-12-04,2004,2004,44,Fora,Corinthians,1,3,D,0, Pacaembu
+2004-12-12,2004,2004,45,Casa,Athletico-PR,1,0,V,3, São Januário
+2004-12-19,2004,2004,46,Fora,Santos,1,2,D,0,Teixeirão
+2005-04-24,2005,2005,1,Fora,Brasiliense,1,0,V,3,  Mané Garrincha
+2005-04-30,2005,2005,2,Casa,Fortaleza,0,0,E,1,  R de Oliveira*(PF)
+2005-05-15,2005,2005,4,Fora,Juventude,1,4,D,0, Alfredo Jaconi
+2005-05-22,2005,2005,5,Casa,Sao Paulo,3,1,V,3, São Januário
+2005-05-29,2005,2005,6,Fora,Ponte Preta,2,4,D,0, Moisés Lucarelli
+2005-06-12,2005,2005,7,Casa,Coritiba,2,2,E,1, São Januário
+2005-06-18,2005,2005,8,Fora,Palmeiras,2,5,D,0,  Parque Antártica
+2005-06-26,2005,2005,9,Fora,Cruzeiro,3,3,E,1, Mineirão
+2005-07-02,2005,2005,10,Casa,Goias,1,2,D,0, São Januário
+2005-07-10,2005,2005,11,Casa,Internacional,2,4,D,0, São Januário
+2005-07-17,2005,2005,12,Fora,Flamengo,0,1,D,0,  Raulino de Oliveira
+2005-07-20,2005,2005,13,Fora,Santos,3,2,V,3, Vila Belmiro
+2005-07-24,2005,2005,14,Casa,Corinthians,2,3,D,0, São Januário
+2005-07-27,2005,2005,15,Fora,Athletico-PR,2,7,D,0, Arena da Baixada
+2005-07-30,2005,2005,16,Casa,Sao Caetano,3,2,V,3, São Januário
+2005-08-04,2005,2005,17,Fora,Fluminense,2,3,D,0,  Raulino de Oliveira
+2005-08-10,2005,2005,19,Fora,Paysandu,2,0,V,3, Mangueirão
+2005-08-14,2005,2005,20,Casa,Atletico-MG,2,1,V,3, São Januário
+2005-08-21,2005,2005,21,Fora,Parana,0,0,E,1, Pinheirão
+2005-08-24,2005,2005,22,Casa,Brasiliense,1,0,V,3, São Januário
+2005-08-28,2005,2005,23,Fora,Fortaleza,2,4,D,0, Castelão
+2005-09-07,2005,2005,24,Fora,Botafogo-RJ,2,2,E,1,  Luso Brasileiro
+2005-09-11,2005,2005,25,Casa,Juventude,5,2,V,3, São Januário
+2005-09-18,2005,2005,26,Fora,Sao Paulo,2,4,D,0, Morumbi
+2005-09-22,2005,2005,27,Casa,Ponte Preta,0,0,E,1, São Januário
+2005-09-25,2005,2005,28,Fora,Coritiba,0,2,D,0, Couto Pereira
+2005-10-02,2005,2005,29,Casa,Palmeiras,0,0,E,1, São Januário
+2005-10-05,2005,2005,30,Casa,Cruzeiro,3,3,E,1, São Januário
+2005-10-08,2005,2005,31,Fora,Goias,3,4,D,0, Serra Dourada
+2005-10-12,2005,2005,18,Casa,Figueirense,3,3,E,1, São Januário
+2005-10-16,2005,2005,32,Fora,Internacional,1,3,D,0, Beira Rio
+2005-10-19,2005,2005,3,Casa,Botafogo-RJ,1,0,V,3, São Januário
+2005-10-22,2005,2005,33,Casa,Flamengo,2,1,V,3, São Januário
+2005-10-26,2005,2005,34,Casa,Santos,1,3,D,0, São Januário
+2005-10-30,2005,2005,35,Fora,Corinthians,1,1,E,1, Pacaembu
+2005-11-03,2005,2005,36,Casa,Athletico-PR,2,1,V,3, São Januário
+2005-11-06,2005,2005,37,Fora,Sao Caetano,2,1,V,3, Anacleto Campanella
+2005-11-13,2005,2005,38,Casa,Fluminense,2,0,V,3, São Januário
+2005-11-16,2005,2005,39,Fora,Figueirense,1,5,D,0, Orlando Scarpelli
+2005-11-20,2005,2005,40,Casa,Paysandu,4,0,V,3, São Januário
+2005-11-27,2005,2005,41,Fora,Atletico-MG,0,0,E,1, Mineirão
+2005-12-04,2005,2005,42,Casa,Parana,3,1,V,3, São Januário
+2006-04-15,2006,2006,1,Casa,Internacional,1,1,E,1, São Januário
+2006-04-23,2006,2006,2,Fora,Ponte Preta,2,1,V,3, Moisés Lucarelli
+2006-04-30,2006,2006,3,Casa,Fluminense,1,1,E,1, São Januário
+2006-05-07,2006,2006,4,Fora,Gremio,2,1,V,3, Olímpico
+2006-05-14,2006,2006,5,Fora,Goias,0,2,D,0, Serra Dourada
+2006-05-21,2006,2006,6,Casa,Corinthians,2,4,D,0, São Januário
+2006-05-25,2006,2006,7,Fora,Botafogo-RJ,1,4,D,0, Maracanã
+2006-05-28,2006,2006,8,Casa,Sao Paulo,1,1,E,1, São Januário
+2006-05-31,2006,2006,9,Fora,Fortaleza,1,1,E,1, Castelão
+2006-06-04,2006,2006,10,Casa,Santa Cruz,2,1,V,3, São Januário
+2006-07-13,2006,2006,11,Fora,Palmeiras,2,4,D,0,  Parque Antártica
+2006-07-16,2006,2006,12,Fora,Flamengo,1,0,V,3, Maracanã
+2006-07-23,2006,2006,13,Casa,Athletico-PR,2,1,V,3, São Januário
+2006-07-30,2006,2006,14,Casa,Cruzeiro,1,0,V,3, São Januário
+2006-08-06,2006,2006,15,Fora,Parana,1,2,D,0, Pinheirão
+2006-08-12,2006,2006,16,Fora,Juventude,0,0,E,1, Alfredo Jaconi
+2006-08-16,2006,2006,17,Casa,Sao Caetano,1,2,D,0, São Januário
+2006-08-20,2006,2006,18,Fora,Santos,2,0,V,3, Vila Belmiro
+2006-08-24,2006,2006,19,Casa,Figueirense,3,1,V,3, São Januário
+2006-08-27,2006,2006,20,Fora,Internacional,2,1,V,3, Beira Rio
+2006-08-31,2006,2006,21,Casa,Ponte Preta,2,2,E,1, São Januário
+2006-09-03,2006,2006,22,Fora,Fluminense,1,1,E,1, Maracanã
+2006-09-09,2006,2006,23,Casa,Gremio,1,1,E,1, São Januário
+2006-09-16,2006,2006,24,Casa,Goias,0,0,E,1, São Januário
+2006-09-20,2006,2006,25,Fora,Corinthians,1,1,E,1, Pacaembu
+2006-09-24,2006,2006,26,Casa,Botafogo-RJ,0,0,E,1, Maracanã
+2006-10-04,2006,2006,27,Fora,Sao Paulo,1,5,D,0, Morumbi
+2006-10-07,2006,2006,28,Casa,Fortaleza,2,0,V,3, São Januário
+2006-10-15,2006,2006,29,Fora,Santa Cruz,4,0,V,3,  Arruda
+2006-10-18,2006,2006,30,Casa,Palmeiras,3,0,V,3, São Januário
+2006-10-26,2006,2006,31,Casa,Flamengo,3,1,V,3, Maracanã
+2006-11-01,2006,2006,32,Fora,Athletico-PR,4,6,D,0,  Kyocera Arena
+2006-11-05,2006,2006,33,Fora,Cruzeiro,1,2,D,0, Mineirão
+2006-11-08,2006,2006,34,Casa,Parana,3,1,V,3, São Januário
+2006-11-11,2006,2006,35,Casa,Juventude,1,1,E,1, São Januário
+2006-11-19,2006,2006,36,Fora,Sao Caetano,1,0,V,3, Anacleto Campanella
+2006-11-26,2006,2006,37,Casa,Santos,1,1,E,1, São Januário
+2006-12-03,2006,2006,38,Fora,Figueirense,0,0,E,1, Orlando Scarpelli
+2007-05-13,2007,2007,1,Fora,America-RN,1,0,V,3,Machadão
+2007-05-20,2007,2007,2,Casa,Sport,3,1,V,3, São Januário
+2007-05-27,2007,2007,3,Fora,Nautico,2,2,E,1,Aflitos
+2007-06-03,2007,2007,4,Casa,Fluminense,1,1,E,1, Maracanã
+2007-06-09,2007,2007,5,Casa,Gremio,4,0,V,3, São Januário
+2007-06-14,2007,2007,12,Fora,Botafogo-RJ,0,4,D,0, Maracanã
+2007-06-17,2007,2007,6,Fora,Sao Paulo,0,2,D,0, Morumbi
+2007-06-30,2007,2007,8,Fora,Cruzeiro,1,3,D,0, Mineirão
+2007-07-04,2007,2007,9,Casa,Santos,4,0,V,3, São Januário
+2007-07-07,2007,2007,10,Fora,Juventude,0,2,D,0, Alfredo Jaconi
+2007-07-12,2007,2007,11,Casa,Athletico-PR,1,0,V,3, São Januário
+2007-07-21,2007,2007,13,Casa,Atletico-MG,4,0,V,3, São Januário
+2007-07-25,2007,2007,14,Fora,Palmeiras,2,3,D,0,  Parque Antártica
+2007-07-28,2007,2007,15,Casa,Goias,4,1,V,3, São Januário
+2007-08-01,2007,2007,16,Fora,Internacional,2,0,V,3, Beira Rio
+2007-08-05,2007,2007,17,Casa,Figueirense,2,2,E,1, São Januário
+2007-08-09,2007,2007,18,Casa,Corinthians,2,0,V,3, São Januário
+2007-08-12,2007,2007,19,Fora,Parana,0,0,E,1,  Durival de Brito
+2007-08-19,2007,2007,20,Casa,America-RN,2,0,V,3, São Januário
+2007-08-26,2007,2007,21,Fora,Sport,0,0,E,1,Ilha do Retiro
+2007-08-30,2007,2007,22,Casa,Nautico,4,1,V,3, São Januário
+2007-09-02,2007,2007,23,Fora,Fluminense,1,1,E,1, Maracanã
+2007-09-05,2007,2007,24,Fora,Gremio,1,3,D,0, Olímpico
+2007-09-08,2007,2007,25,Casa,Sao Paulo,0,2,D,0, São Januário
+2007-09-16,2007,2007,26,Fora,Flamengo,1,1,E,1, Maracanã
+2007-09-23,2007,2007,27,Casa,Cruzeiro,0,2,D,0, São Januário
+2007-09-30,2007,2007,28,Fora,Santos,0,1,D,0, Vila Belmiro
+2007-10-03,2007,2007,29,Casa,Juventude,0,1,D,0, São Januário
+2007-10-07,2007,2007,30,Fora,Athletico-PR,0,1,D,0,  Kyocera Arena
+2007-10-14,2007,2007,31,Casa,Botafogo-RJ,2,1,V,3, Maracanã
+2007-10-18,2007,2007,7,Casa,Flamengo,1,2,D,0, Maracanã
+2007-10-21,2007,2007,32,Fora,Atletico-MG,0,1,D,0, Mineirão
+2007-10-28,2007,2007,33,Casa,Palmeiras,2,2,E,1, São Januário
+2007-10-31,2007,2007,34,Fora,Goias,3,2,V,3, Serra Dourada
+2007-11-04,2007,2007,35,Casa,Internacional,1,2,D,0, São Januário
+2007-11-11,2007,2007,36,Fora,Figueirense,3,3,E,1, Orlando Scarpelli
+2007-11-28,2007,2007,37,Fora,Corinthians,1,0,V,3, Pacaembu
+2007-12-02,2007,2007,38,Casa,Parana,3,0,V,3, São Januário
+2008-05-11,2008,2008,1,Fora,Internacional,0,1,D,0, Beira Rio
+2008-05-17,2008,2008,2,Casa,Portuguesa,3,1,V,3, São Januário
+2008-05-25,2008,2008,3,Fora,Botafogo-RJ,1,1,E,1,Engenhão
+2008-05-31,2008,2008,4,Casa,Gremio,2,1,V,3, São Januário
+2008-06-08,2008,2008,5,Fora,Cruzeiro,0,1,D,0, Mineirão
+2008-06-14,2008,2008,6,Fora,Nautico,1,1,E,1,  Arruda
+2008-06-22,2008,2008,7,Casa,Palmeiras,0,2,D,0, São Januário
+2008-06-28,2008,2008,8,Casa,Ipatinga,4,2,V,3, São Januário
+2008-07-06,2008,2008,9,Fora,Figueirense,1,2,D,0, Orlando Scarpelli
+2008-07-06,2008,2008,11,Fora,Flamengo,1,3,D,0, Maracanã
+2008-07-10,2008,2008,10,Casa,Sport,4,0,V,3, São Januário
+2008-07-17,2008,2008,12,Casa,Goias,1,1,E,1, São Januário
+2008-07-20,2008,2008,13,Fora,Athletico-PR,1,3,D,0,  Kyocera Arena
+2008-07-23,2008,2008,14,Casa,Fluminense,3,3,E,1, São Januário
+2008-07-27,2008,2008,15,Fora,Santos,2,5,D,0, Vila Belmiro
+2008-07-31,2008,2008,16,Casa,Atletico-MG,6,1,V,3, São Januário
+2008-08-03,2008,2008,17,Fora,Sao Paulo,0,4,D,0, Morumbi
+2008-08-06,2008,2008,18,Casa,Coritiba,0,2,D,0, São Januário
+2008-08-10,2008,2008,19,Fora,Vitoria,0,5,D,0, Barradão
+2008-08-17,2008,2008,20,Casa,Internacional,4,0,V,3, São Januário
+2008-08-21,2008,2008,21,Fora,Portuguesa,1,0,V,3,Antônio Guimarães
+2008-08-24,2008,2008,22,Casa,Botafogo-RJ,1,1,E,1, São Januário
+2008-08-31,2008,2008,23,Fora,Gremio,1,2,D,0, Olímpico
+2008-09-04,2008,2008,24,Casa,Cruzeiro,1,3,D,0, São Januário
+2008-09-14,2008,2008,25,Casa,Nautico,1,3,D,0, São Januário
+2008-09-21,2008,2008,26,Fora,Palmeiras,0,2,D,0,Palestra Itália
+2008-09-28,2008,2008,27,Fora,Ipatinga,1,3,D,0,  Ipatingão
+2008-10-04,2008,2008,28,Casa,Figueirense,2,4,D,0, São Januário
+2008-10-08,2008,2008,29,Fora,Sport,2,2,E,1,Ilha do Retiro
+2008-10-19,2008,2008,30,Casa,Flamengo,0,1,D,0, São Januário
+2008-10-22,2008,2008,31,Fora,Goias,4,2,V,3, Serra Dourada
+2008-10-30,2008,2008,32,Casa,Athletico-PR,2,2,E,1, São Januário
+2008-11-02,2008,2008,33,Fora,Fluminense,1,0,V,3, Maracanã
+2008-11-08,2008,2008,34,Casa,Santos,1,0,V,3, São Januário
+2008-11-12,2008,2008,35,Fora,Atletico-MG,1,4,D,0, Mineirão
+2008-11-23,2008,2008,36,Casa,Sao Paulo,1,2,D,0, São Januário
+2008-11-30,2008,2008,37,Fora,Coritiba,2,0,V,3, Couto Pereira
+2008-12-07,2008,2008,38,Casa,Vitoria,0,2,D,0, São Januário
+2010-05-09,2010,2010,1,Fora,Atletico-MG,1,2,D,0, Mineirão
+2010-05-16,2010,2010,2,Casa,Palmeiras,0,0,E,1, São Januário
+2010-05-23,2010,2010,3,Fora,Avai,0,2,D,0,  Ressacada
+2010-05-23,2010,2010,5,Fora,Botafogo-RJ,1,1,E,1,Engenhão
+2010-05-27,2010,2010,4,Casa,Internacional,3,2,V,3, São Januário
+2010-06-03,2010,2010,6,Casa,Guarani,0,1,D,0, São Januário
+2010-06-06,2010,2010,7,Fora,Santos,0,4,D,0, Vila Belmiro
+2010-07-14,2010,2010,8,Fora,Goias,0,0,E,1, Serra Dourada
+2010-07-17,2010,2010,9,Casa,Athletico-PR,3,1,V,3, São Januário
+2010-07-21,2010,2010,10,Fora,Gremio,1,1,E,1, Olímpico
+2010-07-24,2010,2010,11,Casa,Atletico-GO,2,0,V,3, São Januário
+2010-08-01,2010,2010,12,Fora,Flamengo,0,0,E,1, Maracanã
+2010-08-08,2010,2010,13,Casa,Vitoria,1,0,V,3, São Januário
+2010-08-15,2010,2010,14,Fora,Gremio Prudente,2,1,V,3,  Prudentão
+2010-08-22,2010,2010,15,Casa,Fluminense,2,2,E,1, Maracanã
+2010-08-25,2010,2010,16,Fora,Sao Paulo,0,0,E,1, Morumbi
+2010-08-28,2010,2010,17,Casa,Cruzeiro,1,1,E,1, Maracanã
+2010-09-04,2010,2010,19,Fora,Ceara,2,0,V,3, Castelão
+2010-09-09,2010,2010,20,Casa,Atletico-MG,1,1,E,1, São Januário
+2010-09-12,2010,2010,21,Fora,Palmeiras,0,0,E,1, Pacaembu
+2010-09-16,2010,2010,22,Casa,Avai,1,1,E,1, São Januário
+2010-09-19,2010,2010,23,Fora,Internacional,0,1,D,0, Beira Rio
+2010-09-22,2010,2010,24,Casa,Botafogo-RJ,2,2,E,1,Engenhão
+2010-09-25,2010,2010,25,Fora,Guarani,0,1,D,0, Brinco de Ouro
+2010-09-28,2010,2010,26,Casa,Santos,3,1,V,3, São Januário
+2010-10-01,2010,2010,27,Casa,Goias,3,2,V,3, São Januário
+2010-10-06,2010,2010,28,Fora,Athletico-PR,0,0,E,1, Arena da Baixada
+2010-10-09,2010,2010,29,Casa,Gremio,3,3,E,1, São Januário
+2010-10-13,2010,2010,18,Casa,Corinthians,2,0,V,3, São Januário
+2010-10-17,2010,2010,30,Fora,Atletico-GO,0,2,D,0, Serra Dourada
+2010-10-24,2010,2010,31,Casa,Flamengo,1,1,E,1,Engenhão
+2010-10-30,2010,2010,32,Fora,Vitoria,2,4,D,0, Barradão
+2010-11-04,2010,2010,33,Casa,Gremio Prudente,2,1,V,3, São Januário
+2010-11-07,2010,2010,34,Fora,Fluminense,0,1,D,0,Engenhão
+2010-11-14,2010,2010,35,Casa,Sao Paulo,1,1,E,1, São Januário
+2010-11-21,2010,2010,36,Fora,Cruzeiro,1,3,D,0,Arena do Jacaré
+2010-11-28,2010,2010,37,Fora,Corinthians,0,2,D,0, Pacaembu
+2010-12-05,2010,2010,38,Casa,Ceara,2,0,V,3, São Januário
+2011-05-21,2011,2011,1,Fora,Ceara,3,1,V,3, Presidente Vargas
+2011-05-29,2011,2011,2,Casa,America-MG,3,0,V,3, São Januário
+2011-06-05,2011,2011,3,Fora,Coritiba,1,5,D,0, Couto Pereira
+2011-06-11,2011,2011,4,Casa,Figueirense,1,1,E,1, São Januário
+2011-06-19,2011,2011,5,Fora,Gremio,1,1,E,1, Olímpico
+2011-06-26,2011,2011,6,Fora,Atletico-GO,1,0,V,3, Serra Dourada
+2011-06-29,2011,2011,7,Casa,Cruzeiro,0,3,D,0, São Januário
+2011-07-06,2011,2011,8,Fora,Corinthians,1,2,D,0, Pacaembu
+2011-07-09,2011,2011,9,Casa,Internacional,2,0,V,3, São Januário
+2011-07-16,2011,2011,10,Casa,Athletico-PR,2,1,V,3, São Januário
+2011-07-24,2011,2011,11,Fora,Atletico-MG,2,1,V,3,  Ipatingão
+2011-07-28,2011,2011,12,Casa,Bahia,1,1,E,1, São Januário
+2011-07-31,2011,2011,13,Fora,Sao Paulo,2,0,V,3, Morumbi
+2011-08-03,2011,2011,14,Casa,Santos,2,0,V,3, São Januário
+2011-08-07,2011,2011,15,Fora,Botafogo-RJ,0,4,D,0,Engenhão
+2011-08-14,2011,2011,16,Casa,Palmeiras,1,0,V,3, São Januário
+2011-08-17,2011,2011,17,Fora,Avai,2,0,V,3,  Ressacada
+2011-08-21,2011,2011,18,Casa,Fluminense,1,1,E,1,Engenhão
+2011-08-28,2011,2011,19,Fora,Flamengo,0,0,E,1,Engenhão
+2011-08-31,2011,2011,20,Casa,Ceara,3,1,V,3, São Januário
+2011-09-04,2011,2011,21,Fora,America-MG,1,4,D,0,Arena do Jacaré
+2011-09-08,2011,2011,22,Casa,Coritiba,2,0,V,3, São Januário
+2011-09-11,2011,2011,23,Fora,Figueirense,1,1,E,1, Orlando Scarpelli
+2011-09-17,2011,2011,24,Casa,Gremio,4,0,V,3, São Januário
+2011-09-22,2011,2011,25,Casa,Atletico-GO,1,1,E,1, São Januário
+2011-09-25,2011,2011,26,Fora,Cruzeiro,3,0,V,3,Arena do Jacaré
+2011-10-02,2011,2011,27,Casa,Corinthians,2,2,E,1, São Januário
+2011-10-09,2011,2011,28,Fora,Internacional,0,3,D,0, Beira Rio
+2011-10-13,2011,2011,29,Fora,Athletico-PR,2,2,E,1, Arena da Baixada
+2011-10-16,2011,2011,30,Casa,Atletico-MG,2,0,V,3, São Januário
+2011-10-23,2011,2011,31,Fora,Bahia,2,0,V,3,Pituaçu
+2011-10-30,2011,2011,32,Casa,Sao Paulo,0,0,E,1, São Januário
+2011-11-06,2011,2011,33,Fora,Santos,0,2,D,0, Vila Belmiro
+2011-11-13,2011,2011,34,Casa,Botafogo-RJ,2,0,V,3,Engenhão
+2011-11-16,2011,2011,35,Fora,Palmeiras,1,1,E,1, Pacaembu
+2011-11-19,2011,2011,36,Casa,Avai,2,0,V,3, São Januário
+2011-11-27,2011,2011,37,Fora,Fluminense,2,1,V,3,Engenhão
+2011-12-04,2011,2011,38,Casa,Flamengo,1,1,E,1,Engenhão
+2012-05-20,2012,2012,1,Casa,Gremio,2,1,V,3, São Januário
+2012-05-26,2012,2012,2,Fora,Portuguesa,1,0,V,3,Canindé
+2012-06-06,2012,2012,3,Casa,Nautico,4,2,V,3, São Januário
+2012-06-10,2012,2012,4,Fora,Bahia,2,1,V,3,Pituaçu
+2012-06-17,2012,2012,5,Fora,Palmeiras,1,1,E,1,Arena Barueri
+2012-06-23,2012,2012,6,Casa,Cruzeiro,1,3,D,0, São Januário
+2012-06-30,2012,2012,7,Casa,Ponte Preta,3,2,V,3, São Januário
+2012-07-08,2012,2012,8,Fora,Figueirense,1,1,E,1, Orlando Scarpelli
+2012-07-15,2012,2012,9,Casa,Atletico-GO,1,0,V,3, São Januário
+2012-07-18,2012,2012,10,Fora,Sao Paulo,1,0,V,3, Morumbi
+2012-07-21,2012,2012,11,Casa,Santos,2,0,V,3, São Januário
+2012-07-25,2012,2012,12,Casa,Botafogo-RJ,1,0,V,3,Engenhão
+2012-07-28,2012,2012,13,Fora,Internacional,0,0,E,1, Beira Rio
+2012-08-05,2012,2012,14,Casa,Corinthians,0,0,E,1, São Januário
+2012-08-08,2012,2012,15,Fora,Sport,2,0,V,3,Ilha do Retiro
+2012-08-12,2012,2012,16,Fora,Atletico-MG,0,1,D,0,  Independência
+2012-08-16,2012,2012,17,Casa,Coritiba,2,2,E,1, São Januário
+2012-08-19,2012,2012,18,Fora,Flamengo,0,1,D,0,Engenhão
+2012-08-25,2012,2012,19,Casa,Fluminense,1,2,D,0, São Januário
+2012-08-29,2012,2012,20,Fora,Gremio,0,2,D,0, Olímpico
+2012-09-01,2012,2012,21,Casa,Portuguesa,2,0,V,3, São Januário
+2012-09-05,2012,2012,22,Fora,Nautico,1,1,E,1,Aflitos
+2012-09-09,2012,2012,23,Casa,Bahia,0,4,D,0, São Januário
+2012-09-12,2012,2012,24,Casa,Palmeiras,3,1,V,3, São Januário
+2012-09-16,2012,2012,25,Fora,Cruzeiro,1,1,E,1,Melão
+2012-09-23,2012,2012,26,Fora,Ponte Preta,0,0,E,1, Moisés Lucarelli
+2012-09-29,2012,2012,27,Casa,Figueirense,3,1,V,3, São Januário
+2012-10-06,2012,2012,28,Fora,Atletico-GO,1,0,V,3, Serra Dourada
+2012-10-10,2012,2012,29,Casa,Sao Paulo,0,2,D,0, São Januário
+2012-10-14,2012,2012,30,Fora,Santos,0,2,D,0, Vila Belmiro
+2012-10-18,2012,2012,31,Fora,Botafogo-RJ,2,3,D,0,Engenhão
+2012-10-24,2012,2012,32,Casa,Internacional,1,2,D,0, São Januário
+2012-10-27,2012,2012,33,Fora,Corinthians,0,1,D,0, Pacaembu
+2012-11-04,2012,2012,34,Casa,Sport,0,3,D,0, São Januário
+2012-11-11,2012,2012,35,Casa,Atletico-MG,1,1,E,1, São Januário
+2012-11-17,2012,2012,36,Fora,Coritiba,2,1,V,3, Couto Pereira
+2012-11-24,2012,2012,37,Casa,Flamengo,1,1,E,1,Engenhão
+2012-12-02,2012,2012,38,Fora,Fluminense,2,1,V,3,Engenhão
+2013-05-25,2013,2013,1,Casa,Portuguesa,1,0,V,3, São Januário
+2013-05-29,2013,2013,2,Fora,Sao Paulo,1,5,D,0, Morumbi
+2013-06-01,2013,2013,3,Fora,Vitoria,0,2,D,0, Barradão
+2013-06-05,2013,2013,4,Casa,Atletico-MG,2,0,V,3,  Raulino de Oliveira
+2013-06-08,2013,2013,5,Casa,Bahia,1,1,E,1,  Raulino de Oliveira
+2013-07-07,2013,2013,6,Fora,Internacional,3,5,D,0,Centenário (RS)
+2013-07-14,2013,2013,7,Casa,Flamengo,0,1,D,0,  Mané Garrincha
+2013-07-21,2013,2013,8,Fora,Fluminense,3,1,V,3, Maracanã
+2013-07-27,2013,2013,9,Casa,Criciuma,3,2,V,3, São Januário
+2013-08-01,2013,2013,10,Fora,Goias,1,1,E,1, Serra Dourada
+2013-08-04,2013,2013,11,Casa,Botafogo-RJ,2,3,D,0, Maracanã
+2013-08-08,2013,2013,12,Casa,Ponte Preta,1,1,E,1, São Januário
+2013-08-11,2013,2013,13,Fora,Coritiba,1,0,V,3, Couto Pereira
+2013-08-14,2013,2013,14,Fora,Santos,1,1,E,1, Vila Belmiro
+2013-08-17,2013,2013,15,Casa,Gremio,2,3,D,0, São Januário
+2013-08-25,2013,2013,16,Casa,Corinthians,1,1,E,1,  Mané Garrincha
+2013-09-01,2013,2013,17,Fora,Cruzeiro,3,5,D,0, Mineirão
+2013-09-05,2013,2013,18,Fora,Nautico,3,0,V,3,Arena Pernambuco
+2013-09-08,2013,2013,19,Casa,Athletico-PR,0,0,E,1, São Januário
+2013-09-11,2013,2013,20,Fora,Portuguesa,0,2,D,0,Canindé
+2013-09-15,2013,2013,21,Casa,Sao Paulo,0,2,D,0, São Januário
+2013-09-18,2013,2013,22,Casa,Vitoria,1,2,D,0, São Januário
+2013-09-22,2013,2013,23,Fora,Atletico-MG,1,2,D,0,  Independência
+2013-09-29,2013,2013,24,Fora,Bahia,0,0,E,1, Fonte Nova
+2013-10-03,2013,2013,25,Casa,Internacional,3,1,V,3,Moacyrzão
+2013-10-06,2013,2013,26,Fora,Flamengo,1,1,E,1,  Mané Garrincha
+2013-10-09,2013,2013,27,Casa,Fluminense,1,0,V,3,  Ressacada
+2013-10-13,2013,2013,28,Fora,Criciuma,2,3,D,0, Heriberto Hulse
+2013-10-17,2013,2013,29,Casa,Goias,0,2,D,0,Moacyrzão
+2013-10-20,2013,2013,30,Fora,Botafogo-RJ,2,2,E,1, Maracanã
+2013-10-27,2013,2013,31,Fora,Ponte Preta,1,2,D,0, Moisés Lucarelli
+2013-11-02,2013,2013,32,Casa,Coritiba,2,1,V,3,Moacyrzão
+2013-11-10,2013,2013,33,Casa,Santos,2,2,E,1, Maracanã
+2013-11-13,2013,2013,34,Fora,Gremio,0,1,D,0,Arena do Grêmio
+2013-11-17,2013,2013,35,Fora,Corinthians,0,0,E,1, Pacaembu
+2013-11-23,2013,2013,36,Casa,Cruzeiro,2,1,V,3, Maracanã
+2013-12-01,2013,2013,37,Casa,Nautico,2,0,V,3, Maracanã
+2013-12-08,2013,2013,38,Fora,Athletico-PR,1,5,D,0,Arena Joinville
+2015-05-10,2015,2015,1,Casa,Goias,0,0,E,1,Estádio Vasco da Gama
+2015-05-17,2015,2015,2,Fora,Figueirense,0,0,E,1, Orlando Scarpelli
+2015-05-23,2015,2015,3,Casa,Internacional,1,1,E,1,Estádio Vasco da Gama
+2015-05-31,2015,2015,4,Fora,Atletico-MG,0,3,D,0,Estádio Raimundo Sampaio
+2015-06-03,2015,2015,5,Casa,Ponte Preta,0,3,D,0,Estádio Vasco da Gama
+2015-06-06,2015,2015,6,Fora,Athletico-PR,0,2,D,0,Estádio Joaquim Américo Guimarães
+2015-06-13,2015,2015,7,Casa,Cruzeiro,1,3,D,0,Estádio Vasco da Gama
+2015-06-20,2015,2015,8,Fora,Sport,1,2,D,0,Arena de Pernambuco
+2015-06-28,2015,2015,9,Casa,Flamengo,1,0,V,3,Arena Pantanal
+2015-07-01,2015,2015,10,Casa,Avai,1,0,V,3,Estádio Vasco da Gama
+2015-07-04,2015,2015,11,Fora,Chapecoense,0,1,D,0,Arena Condá
+2015-07-08,2015,2015,12,Casa,Sao Paulo,0,4,D,0,Estádio Nacional de Brasília
+2015-07-11,2015,2015,13,Fora,Gremio,0,2,D,0,Arena do Grêmio
+2015-07-19,2015,2015,14,Fora,Fluminense,2,1,V,3, Maracanã
+2015-07-26,2015,2015,15,Casa,Palmeiras,1,4,D,0,Estádio Vasco da Gama
+2015-07-29,2015,2015,16,Fora,Corinthians,0,3,D,0,Neo Química Arena
+2015-08-09,2015,2015,17,Casa,Joinville,0,0,E,1, Maracanã
+2015-08-12,2015,2015,18,Fora,Santos,0,1,D,0,Estádio Urbano Caldeira
+2015-08-15,2015,2015,19,Casa,Coritiba,0,1,D,0, Maracanã
+2015-08-22,2015,2015,20,Fora,Goias,0,3,D,0,Estádio do Governo do Estado de Goiás (Serra Dourada)
+2015-08-29,2015,2015,21,Casa,Figueirense,0,1,D,0, Maracanã
+2015-09-02,2015,2015,22,Fora,Internacional,0,6,D,0,Estádio José Pinheiro Borda
+2015-09-05,2015,2015,23,Casa,Atletico-MG,1,2,D,0, Maracanã
+2015-09-09,2015,2015,24,Fora,Ponte Preta,1,0,V,3, Moisés Lucarelli
+2015-09-13,2015,2015,25,Casa,Athletico-PR,2,0,V,3, Maracanã
+2015-09-16,2015,2015,26,Fora,Cruzeiro,2,2,E,1, Mineirão
+2015-09-20,2015,2015,27,Casa,Sport,2,1,V,3, Maracanã
+2015-09-27,2015,2015,28,Fora,Flamengo,2,1,V,3, Maracanã
+2015-10-04,2015,2015,29,Fora,Avai,1,1,E,1,  Ressacada
+2015-10-15,2015,2015,30,Casa,Chapecoense,1,1,E,1, Maracanã
+2015-10-18,2015,2015,31,Fora,Sao Paulo,2,2,E,1, Morumbi
+2015-10-25,2015,2015,32,Casa,Gremio,0,0,E,1, Maracanã
+2015-11-01,2015,2015,33,Casa,Fluminense,0,1,D,0,Estádio Nilton Santos
+2015-11-08,2015,2015,34,Fora,Palmeiras,2,0,V,3,Allianz Parque
+2015-11-19,2015,2015,35,Casa,Corinthians,1,1,E,1,Estádio Vasco da Gama
+2015-11-22,2015,2015,36,Fora,Joinville,2,1,V,3,Arena Joinville
+2015-11-29,2015,2015,37,Casa,Santos,1,0,V,3,Estádio Vasco da Gama
+2015-12-06,2015,2015,38,Fora,Coritiba,0,0,E,1, Couto Pereira
+2017-05-14,2017,2017,1,Fora,Palmeiras,0,4,D,0,Allianz Parque
+2017-05-21,2017,2017,2,Casa,Bahia,2,1,V,3,Estádio Vasco da Gama
+2017-05-27,2017,2017,3,Casa,Fluminense,3,2,V,3,Estádio Vasco da Gama
+2017-06-04,2017,2017,4,Fora,Gremio,0,2,D,0,Arena do Grêmio
+2017-06-07,2017,2017,5,Casa,Corinthians,2,5,D,0,Estádio Vasco da Gama
+2017-06-10,2017,2017,6,Casa,Sport,2,1,V,3,Estádio Vasco da Gama
+2017-06-14,2017,2017,7,Fora,Chapecoense,1,2,D,0,Arena Condá
+2017-06-17,2017,2017,8,Casa,Avai,1,0,V,3,Estádio Vasco da Gama
+2017-06-21,2017,2017,9,Fora,Botafogo-RJ,1,3,D,0,Estádio Nilton Santos
+2017-06-25,2017,2017,10,Casa,Atletico-GO,1,0,V,3,Estádio Vasco da Gama
+2017-07-02,2017,2017,11,Fora,Coritiba,2,2,E,1,Vila Capanema
+2017-07-08,2017,2017,12,Casa,Flamengo,0,1,D,0,Estádio Vasco da Gama
+2017-07-12,2017,2017,13,Fora,Vitoria,4,1,V,3, Barradão
+2017-07-16,2017,2017,14,Casa,Santos,0,0,E,1,Estádio Nilton Santos
+2017-07-19,2017,2017,15,Fora,Sao Paulo,0,1,D,0, Morumbi
+2017-07-23,2017,2017,16,Fora,Atletico-MG,2,1,V,3,Estádio Raimundo Sampaio
+2017-07-31,2017,2017,17,Casa,Athletico-PR,0,1,D,0,Estádio Municipal General Raulino de Oliveira
+2017-08-03,2017,2017,18,Casa,Cruzeiro,0,3,D,0,Estádio Municipal General Raulino de Oliveira
+2017-08-06,2017,2017,19,Fora,Ponte Preta,0,0,E,1, Moisés Lucarelli
+2017-08-13,2017,2017,20,Casa,Palmeiras,1,1,E,1,Estádio Municipal General Raulino de Oliveira
+2017-08-20,2017,2017,21,Fora,Bahia,0,3,D,0,Itaipava Arena Fonte Nova
+2017-08-26,2017,2017,22,Fora,Fluminense,1,0,V,3, Maracanã
+2017-09-09,2017,2017,23,Casa,Gremio,1,0,V,3,Estádio Vasco da Gama
+2017-09-17,2017,2017,24,Fora,Corinthians,0,1,D,0,Neo Química Arena
+2017-09-25,2017,2017,25,Fora,Sport,1,1,E,1,Adelmar da Costa Carvalho
+2017-09-30,2017,2017,26,Casa,Chapecoense,1,1,E,1,Estádio Vasco da Gama
+2017-10-11,2017,2017,27,Fora,Avai,2,1,V,3,  Ressacada
+2017-10-14,2017,2017,28,Casa,Botafogo-RJ,1,0,V,3, Maracanã
+2017-10-18,2017,2017,29,Fora,Atletico-GO,1,0,V,3,Estádio do Governo do Estado de Goiás (Serra Dourada)
+2017-10-21,2017,2017,30,Casa,Coritiba,1,1,E,1, Maracanã
+2017-10-28,2017,2017,31,Fora,Flamengo,0,0,E,1, Maracanã
+2017-11-05,2017,2017,32,Casa,Vitoria,1,1,E,1, Maracanã
+2017-11-08,2017,2017,33,Fora,Santos,2,1,V,3,Estádio Urbano Caldeira
+2017-11-12,2017,2017,34,Casa,Sao Paulo,1,1,E,1,Estádio Vasco da Gama
+2017-11-15,2017,2017,35,Casa,Atletico-MG,1,1,E,1,Estádio Vasco da Gama
+2017-11-19,2017,2017,36,Fora,Athletico-PR,1,3,D,0,Estádio Joaquim Américo Guimarães
+2017-11-26,2017,2017,37,Fora,Cruzeiro,1,0,V,3, Mineirão
+2017-12-03,2017,2017,38,Casa,Ponte Preta,2,1,V,3,Estádio Vasco da Gama
+2018-04-15,2018,2018,1,Casa,Atletico-MG,2,1,V,3,Estádio Vasco da Gama
+2018-04-22,2018,2018,2,Fora,Chapecoense,1,1,E,1,Arena Condá
+2018-05-05,2018,2018,4,Casa,America-MG,4,1,V,3,Estádio Vasco da Gama
+2018-05-13,2018,2018,5,Casa,Vitoria,2,3,D,0,Estádio Vasco da Gama
+2018-05-19,2018,2018,6,Fora,Flamengo,1,1,E,1, Maracanã
+2018-05-27,2018,2018,7,Fora,Bahia,0,3,D,0,Itaipava Arena Fonte Nova
+2018-05-30,2018,2018,8,Casa,Parana,1,0,V,3,Estádio Vasco da Gama
+2018-06-02,2018,2018,9,Casa,Botafogo-RJ,1,2,D,0,Estádio Vasco da Gama
+2018-06-06,2018,2018,10,Fora,Cruzeiro,1,1,E,1, Mineirão
+2018-06-09,2018,2018,11,Casa,Sport,3,2,V,3,Estádio Vasco da Gama
+2018-06-13,2018,2018,12,Fora,Internacional,1,3,D,0,Estádio José Pinheiro Borda
+2018-07-19,2018,2018,13,Casa,Fluminense,1,1,E,1,Estádio Vasco da Gama
+2018-07-22,2018,2018,14,Casa,Gremio,1,0,V,3,Estádio Vasco da Gama
+2018-07-29,2018,2018,16,Casa,Corinthians,1,4,D,0,Estádio Nacional de Brasília
+2018-08-05,2018,2018,17,Fora,Sao Paulo,1,2,D,0, Morumbi
+2018-08-12,2018,2018,18,Fora,Palmeiras,0,1,D,0,Allianz Parque
+2018-08-20,2018,2018,19,Casa,Ceara,1,1,E,1,Estádio Vasco da Gama
+2018-08-23,2018,2018,20,Fora,Atletico-MG,0,0,E,1,Estádio Raimundo Sampaio
+2018-08-26,2018,2018,21,Casa,Chapecoense,3,1,V,3,Estádio Vasco da Gama
+2018-08-29,2018,2018,15,Fora,Athletico-PR,0,1,D,0,Estádio Joaquim Américo Guimarães
+2018-09-01,2018,2018,22,Casa,Santos,0,3,D,0, Maracanã
+2018-09-06,2018,2018,23,Fora,America-MG,1,2,D,0,Estádio Raimundo Sampaio
+2018-09-09,2018,2018,24,Fora,Vitoria,0,1,D,0, Barradão
+2018-09-15,2018,2018,25,Casa,Flamengo,1,1,E,1,Estádio Nacional de Brasília
+2018-09-24,2018,2018,26,Casa,Bahia,2,1,V,3,Estádio Vasco da Gama
+2018-09-27,2018,2018,3,Fora,Santos,1,1,E,1,Estádio Municipal Paulo Machado de Carvalho
+2018-10-01,2018,2018,27,Fora,Parana,1,1,E,1,Vila Capanema
+2018-10-09,2018,2018,28,Fora,Botafogo-RJ,1,1,E,1,Estádio Nilton Santos
+2018-10-14,2018,2018,29,Casa,Cruzeiro,2,0,V,3,Estádio Vasco da Gama
+2018-10-20,2018,2018,30,Fora,Sport,1,2,D,0,Adelmar da Costa Carvalho
+2018-10-26,2018,2018,31,Casa,Internacional,1,1,E,1,Estádio Vasco da Gama
+2018-11-03,2018,2018,32,Fora,Fluminense,1,0,V,3, Maracanã
+2018-11-11,2018,2018,33,Fora,Gremio,1,2,D,0,Arena do Grêmio
+2018-11-14,2018,2018,34,Casa,Athletico-PR,1,1,E,1,Estádio Vasco da Gama
+2018-11-17,2018,2018,35,Fora,Corinthians,0,1,D,0,Neo Química Arena
+2018-11-22,2018,2018,36,Casa,Sao Paulo,2,0,V,3,Estádio Vasco da Gama
+2018-11-25,2018,2018,37,Casa,Palmeiras,0,1,D,0,Estádio Vasco da Gama
+2018-12-02,2018,2018,38,Fora,Ceara,0,0,E,1,Arena Castelão
+2019-04-28,2019,2019,1,Fora,Athletico-PR,1,4,D,0,Estádio Joaquim Américo Guimarães
+2019-05-01,2019,2019,2,Casa,Atletico-MG,1,2,D,0,Estádio Vasco da Gama
+2019-05-04,2019,2019,3,Casa,Corinthians,1,1,E,1,Arena da Amazônia
+2019-05-12,2019,2019,4,Fora,Santos,0,3,D,0,Estádio Municipal Paulo Machado de Carvalho
+2019-05-19,2019,2019,5,Casa,Avai,1,1,E,1,Estádio Vasco da Gama
+2019-05-26,2019,2019,6,Fora,Fortaleza,1,1,E,1,Arena Castelão
+2019-06-02,2019,2019,7,Fora,Botafogo-RJ,0,1,D,0,Estádio Nilton Santos
+2019-06-07,2019,2019,8,Casa,Internacional,2,1,V,3,Estádio Vasco da Gama
+2019-06-13,2019,2019,9,Casa,Ceara,1,0,V,3,Estádio Vasco da Gama
+2019-07-13,2019,2019,10,Fora,Gremio,1,2,D,0,Arena do Grêmio
+2019-07-20,2019,2019,11,Casa,Fluminense,2,1,V,3,Estádio Vasco da Gama
+2019-07-27,2019,2019,12,Fora,Palmeiras,1,1,E,1,Allianz Parque
+2019-08-04,2019,2019,13,Casa,CSA,0,0,E,1,Kléber Andrade
+2019-08-11,2019,2019,14,Fora,Goias,1,0,V,3,Estádio do Governo do Estado de Goiás (Serra Dourada)
+2019-08-17,2019,2019,15,Casa,Flamengo,1,4,D,0,Estádio Nacional de Brasília
+2019-08-25,2019,2019,16,Casa,Sao Paulo,2,0,V,3,Estádio Vasco da Gama
+2019-09-01,2019,2019,17,Fora,Cruzeiro,0,1,D,0, Mineirão
+2019-09-07,2019,2019,18,Casa,Bahia,0,2,D,0,Estádio Vasco da Gama
+2019-09-14,2019,2019,19,Fora,Chapecoense,2,1,V,3,Arena Condá
+2019-09-22,2019,2019,20,Casa,Athletico-PR,1,1,E,1,Estádio Vasco da Gama
+2019-09-29,2019,2019,22,Fora,Corinthians,0,1,D,0,Neo Química Arena
+2019-10-02,2019,2019,21,Fora,Atletico-MG,2,1,V,3,Estádio Raimundo Sampaio
+2019-10-05,2019,2019,23,Casa,Santos,0,1,D,0,Estádio Vasco da Gama
+2019-10-10,2019,2019,24,Fora,Avai,0,0,E,1,  Ressacada
+2019-10-13,2019,2019,25,Casa,Fortaleza,1,0,V,3,Estádio Vasco da Gama
+2019-10-16,2019,2019,26,Casa,Botafogo-RJ,2,1,V,3,Estádio Vasco da Gama
+2019-10-20,2019,2019,27,Fora,Internacional,1,0,V,3,Estádio José Pinheiro Borda
+2019-10-26,2019,2019,28,Fora,Ceara,1,1,E,1,Arena Castelão
+2019-10-30,2019,2019,29,Casa,Gremio,1,3,D,0,Estádio Vasco da Gama
+2019-11-02,2019,2019,30,Fora,Fluminense,0,0,E,1, Maracanã
+2019-11-06,2019,2019,31,Casa,Palmeiras,1,2,D,0,Estádio Vasco da Gama
+2019-11-10,2019,2019,32,Fora,CSA,3,0,V,3,Estádio Rei Pelé
+2019-11-13,2019,2019,34,Fora,Flamengo,4,4,E,1, Maracanã
+2019-11-18,2019,2019,33,Casa,Goias,1,1,E,1,Estádio Vasco da Gama
+2019-11-28,2019,2019,35,Fora,Sao Paulo,0,1,D,0, Morumbi
+2019-12-02,2019,2019,36,Casa,Cruzeiro,1,0,V,3,Estádio Vasco da Gama
+2019-12-05,2019,2019,37,Fora,Bahia,1,1,E,1,Itaipava Arena Fonte Nova
+2019-12-08,2019,2019,38,Casa,Chapecoense,1,1,E,1, Maracanã
+2020-08-13,2020,2020,2,Casa,Sport,2,0,V,3,Estádio Vasco da Gama
+2020-08-16,2020,2020,3,Casa,Sao Paulo,2,1,V,3,Estádio Vasco da Gama
+2020-08-20,2020,2020,4,Fora,Ceara,3,0,V,3,Arena Castelão
+2020-08-23,2020,2020,5,Casa,Gremio,0,0,E,1,Estádio Vasco da Gama
+2020-08-29,2020,2020,6,Fora,Fluminense,1,2,D,0, Maracanã
+2020-09-02,2020,2020,7,Fora,Santos,2,2,E,1,Estádio Urbano Caldeira
+2020-09-06,2020,2020,8,Casa,Athletico-PR,1,0,V,3,Estádio Vasco da Gama
+2020-09-10,2020,2020,9,Casa,Atletico-GO,1,2,D,0,Estádio Vasco da Gama
+2020-09-13,2020,2020,10,Fora,Botafogo-RJ,3,2,V,3,Estádio Nilton Santos
+2020-09-20,2020,2020,11,Fora,Coritiba,0,1,D,0, Couto Pereira
+2020-09-27,2020,2020,12,Casa,Bragantino,1,1,E,1,Estádio Vasco da Gama
+2020-10-04,2020,2020,13,Fora,Atletico-MG,1,4,D,0, Mineirão
+2020-10-07,2020,2020,14,Fora,Bahia,0,3,D,0,Estádio de Pituaçu
+2020-10-10,2020,2020,15,Casa,Flamengo,1,2,D,0,Estádio Vasco da Gama
+2020-10-18,2020,2020,17,Fora,Internacional,0,2,D,0,Estádio José Pinheiro Borda
+2020-10-21,2020,2020,18,Casa,Corinthians,1,2,D,0,Estádio Vasco da Gama
+2020-11-01,2020,2020,19,Fora,Goias,1,1,E,1,Estádio da Serrinha
+2020-11-08,2020,2020,20,Casa,Palmeiras,0,1,D,0,Estádio Vasco da Gama
+2020-11-14,2020,2020,21,Fora,Sport,2,0,V,3,Adelmar da Costa Carvalho
+2020-11-19,2020,2020,16,Casa,Fortaleza,0,0,E,1,Estádio Vasco da Gama
+2020-11-22,2020,2020,22,Fora,Sao Paulo,1,1,E,1, Morumbi
+2020-11-30,2020,2020,23,Casa,Ceara,1,4,D,0,Estádio Vasco da Gama
+2020-12-06,2020,2020,24,Fora,Gremio,0,4,D,0,Arena do Grêmio
+2020-12-13,2020,2020,25,Casa,Fluminense,1,1,E,1,Estádio Vasco da Gama
+2020-12-20,2020,2020,26,Casa,Santos,1,0,V,3,Estádio Vasco da Gama
+2020-12-27,2020,2020,27,Fora,Athletico-PR,0,3,D,0,Estádio Joaquim Américo Guimarães
+2021-01-07,2021,2020,28,Fora,Atletico-GO,0,0,E,1,Estádio Antônio Accioly
+2021-01-10,2021,2020,29,Casa,Botafogo-RJ,3,0,V,3,Estádio Vasco da Gama
+2021-01-16,2021,2020,30,Casa,Coritiba,0,1,D,0,Estádio Vasco da Gama
+2021-01-20,2021,2020,31,Fora,Bragantino,1,4,D,0,Nabizão
+2021-01-23,2021,2020,32,Casa,Atletico-MG,3,2,V,3,Estádio Vasco da Gama
+2021-01-26,2021,2020,1,Fora,Palmeiras,1,1,E,1,Allianz Parque
+2021-01-31,2021,2020,33,Casa,Bahia,0,0,E,1,Estádio Vasco da Gama
+2021-02-04,2021,2020,34,Fora,Flamengo,0,2,D,0, Maracanã
+2021-02-10,2021,2020,35,Fora,Fortaleza,0,3,D,0,Arena Castelão
+2021-02-14,2021,2020,36,Casa,Internacional,0,2,D,0,Estádio Vasco da Gama
+2021-02-21,2021,2020,37,Fora,Corinthians,0,0,E,1,Neo Química Arena
+2021-02-25,2021,2020,38,Casa,Goias,3,2,V,3,Estádio Vasco da Gama
+2023-04-15,2023,2023,1,Fora,Atletico-MG,2,1,V,3, Mineirão
+2023-04-23,2023,2023,2,Casa,Palmeiras,2,2,E,1, Maracanã
+2023-05-01,2023,2023,3,Casa,Bahia,0,1,D,0,Estádio São Januário
+2023-05-06,2023,2023,4,Fora,Fluminense,1,1,E,1, Maracanã
+2023-05-11,2023,2023,5,Fora,Coritiba,1,1,E,1, Couto Pereira
+2023-05-14,2023,2023,6,Casa,Santos,0,1,D,0,Estádio São Januário
+2023-05-20,2023,2023,7,Fora,Sao Paulo,2,4,D,0, Morumbi
+2023-05-27,2023,2023,8,Fora,Fortaleza,0,2,D,0,Arena Castelão
+2023-06-05,2023,2023,9,Casa,Flamengo,1,4,D,0, Maracanã
+2023-06-11,2023,2023,10,Fora,Internacional,1,2,D,0,Estádio Beira-Rio
+2023-06-22,2023,2023,11,Casa,Goias,0,1,D,0,Estádio São Januário
+2023-06-26,2023,2023,12,Casa,Cuiaba,1,0,V,3,Luso-Brasileiro
+2023-07-02,2023,2023,13,Fora,Botafogo-RJ,0,2,D,0,Estádio Nilton Santos
+2023-07-08,2023,2023,14,Casa,Cruzeiro,0,1,D,0,Estádio São Januário
+2023-07-23,2023,2023,16,Casa,Athletico-PR,0,2,D,0,Estádio São Januário
+2023-07-29,2023,2023,17,Fora,Corinthians,1,3,D,0,Neo Química Arena
+2023-08-06,2023,2023,18,Casa,Gremio,1,0,V,3,Estádio São Januário
+2023-08-14,2023,2023,19,Fora,Bragantino,1,1,E,1,Nabizão
+2023-08-20,2023,2023,20,Casa,Atletico-MG,1,0,V,3, Maracanã
+2023-08-27,2023,2023,21,Fora,Palmeiras,0,1,D,0,Allianz Parque
+2023-09-03,2023,2023,22,Fora,Bahia,1,1,E,1,Itaipava Arena Fonte Nova
+2023-09-16,2023,2023,23,Casa,Fluminense,4,2,V,3,Estádio Nilton Santos
+2023-09-21,2023,2023,24,Casa,Coritiba,5,1,V,3,Estádio São Januário
+2023-09-25,2023,2023,15,Fora,America-MG,1,0,V,3,Estádio Raimundo Sampaio
+2023-10-01,2023,2023,25,Fora,Santos,1,4,D,0,Estádio Urbano Caldeira
+2023-10-07,2023,2023,26,Casa,Sao Paulo,0,0,E,1,Estádio São Januário
+2023-10-18,2023,2023,27,Casa,Fortaleza,1,0,V,3,Estádio São Januário
+2023-10-22,2023,2023,28,Fora,Flamengo,0,1,D,0, Maracanã
+2023-10-26,2023,2023,29,Casa,Internacional,1,2,D,0,Estádio São Januário
+2023-10-29,2023,2023,30,Fora,Goias,1,1,E,1,Estádio Hailé Pinheiro - Serrinha
+2023-11-02,2023,2023,31,Fora,Cuiaba,2,0,V,3,Arena Pantanal
+2023-11-06,2023,2023,32,Casa,Botafogo-RJ,1,0,V,3,Estádio São Januário
+2023-11-12,2023,2023,34,Casa,America-MG,2,1,V,3,Estádio São Januário
+2023-11-22,2023,2023,33,Fora,Cruzeiro,2,2,E,1, Mineirão
+2023-11-25,2023,2023,35,Fora,Athletico-PR,0,0,E,1,Ligga Arena
+2023-11-28,2023,2023,36,Casa,Corinthians,2,4,D,0,Estádio São Januário
+2023-12-03,2023,2023,37,Fora,Gremio,0,1,D,0,Arena do Grêmio
+2023-12-06,2023,2023,38,Casa,Bragantino,2,1,V,3,Estádio São Januário
+2024-04-14,2024,2024,1,Casa,Gremio,2,1,V,3,Estádio São Januário
+2024-04-17,2024,2024,2,Fora,Bragantino,1,2,D,0,Nabizão
+2024-04-20,2024,2024,3,Fora,Fluminense,1,2,D,0, Maracanã
+2024-04-27,2024,2024,4,Casa,Criciuma,0,4,D,0,Estádio São Januário
+2024-05-05,2024,2024,5,Fora,Athletico-PR,0,1,D,0,Ligga Arena
+2024-05-12,2024,2024,6,Casa,Vitoria,2,1,V,3,Estádio São Januário
+2024-06-02,2024,2024,7,Casa,Flamengo,1,6,D,0, Maracanã
+2024-06-13,2024,2024,8,Fora,Palmeiras,0,2,D,0,Allianz Parque
+2024-06-16,2024,2024,9,Casa,Cruzeiro,0,0,E,1,Estádio São Januário
+2024-06-19,2024,2024,10,Fora,Juventude,0,2,D,0, Alfredo Jaconi
+2024-06-22,2024,2024,11,Casa,Sao Paulo,4,1,V,3,Estádio São Januário
+2024-06-26,2024,2024,12,Fora,Bahia,1,2,D,0,Arena Fonte Nova
+2024-06-29,2024,2024,13,Casa,Botafogo-RJ,1,1,E,1,Estádio São Januário
+2024-07-03,2024,2024,14,Casa,Fortaleza,2,0,V,3,Estádio São Januário
+2024-07-07,2024,2024,15,Fora,Internacional,2,1,V,3,Estádio Beira-Rio
+2024-07-10,2024,2024,16,Casa,Corinthians,2,0,V,3,Estádio São Januário
+2024-07-17,2024,2024,17,Fora,Atletico-GO,1,0,V,3,Estádio Antônio Accioly - Atlético Goianiense
+2024-07-21,2024,2024,18,Fora,Atletico-MG,0,2,D,0,Arena MRV
+2024-07-28,2024,2024,20,Fora,Gremio,0,1,D,0,Arena Condá
+2024-08-03,2024,2024,21,Casa,Bragantino,2,2,E,1,Estádio São Januário
+2024-08-10,2024,2024,22,Casa,Fluminense,2,0,V,3,Estádio Nilton Santos
+2024-08-18,2024,2024,23,Fora,Criciuma,2,2,E,1,Estádio Heriberto Hülse
+2024-08-26,2024,2024,24,Casa,Athletico-PR,2,1,V,3,Estádio São Januário
+2024-09-01,2024,2024,25,Fora,Vitoria,1,0,V,3, Barradão
+2024-09-15,2024,2024,26,Fora,Flamengo,1,1,E,1, Maracanã
+2024-09-22,2024,2024,27,Casa,Palmeiras,0,1,D,0,Arena BRB Mané Garrincha
+2024-09-29,2024,2024,28,Fora,Cruzeiro,1,1,E,1, Mineirão
+2024-10-05,2024,2024,29,Casa,Juventude,1,1,E,1,Estádio São Januário
+2024-10-16,2024,2024,30,Fora,Sao Paulo,0,3,D,0,Estádio Brinco de Ouro
+2024-10-24,2024,2024,19,Casa,Cuiaba,1,0,V,3,Estádio São Januário
+2024-10-28,2024,2024,31,Casa,Bahia,3,2,V,3,Estádio São Januário
+2024-11-05,2024,2024,32,Fora,Botafogo-RJ,0,3,D,0,Estádio Nilton Santos
+2024-11-09,2024,2024,33,Fora,Fortaleza,0,3,D,0,Arena Castelão
+2024-11-21,2024,2024,34,Casa,Internacional,0,1,D,0,Estádio São Januário
+2024-11-24,2024,2024,35,Fora,Corinthians,1,3,D,0,Neo Química Arena
+2024-11-30,2024,2024,36,Casa,Atletico-GO,2,2,E,1,Estádio São Januário
+2024-12-04,2024,2024,37,Casa,Atletico-MG,2,0,V,3,Estádio São Januário
+2024-12-08,2024,2024,38,Fora,Cuiaba,2,1,V,3,Arena Pantanal

@@ -13,12 +13,14 @@ Como rodar (na pasta raio-x-vasco, com o (.venv) ativo):
   python preparar_dados.py
 """
 
+import unicodedata
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
 ARQUIVO_ENTRADA = Path("data") / "campeonato-brasileiro-full.csv"
+ARQUIVO_NOVOS = Path("data") / "jogos_novos.csv"
 ARQUIVO_SAIDA = Path("data") / "vasco_jogos.csv"
 CLUBE = "Vasco"
 
@@ -27,6 +29,65 @@ def carregar(caminho: Path) -> pd.DataFrame:
     if not caminho.exists():
         raise SystemExit(f"Arquivo não encontrado: {caminho}")
     return pd.read_csv(caminho)
+
+
+def _simplificar(nome: str) -> str:
+    """'Atlético-MG' vira 'atleticomg': sem acento, minúsculo e só letras e números."""
+    sem_acento = unicodedata.normalize("NFKD", nome).encode("ascii", "ignore").decode()
+    return "".join(c for c in sem_acento.lower() if c.isalnum())
+
+
+def padronizar_nomes(novos: pd.DataFrame, df: pd.DataFrame) -> pd.DataFrame:
+    """Troca os nomes dos jogos novos pelos nomes da base histórica quando é claramente o mesmo time.
+
+    Exemplo: 'Botafogo' vira 'Botafogo-RJ' se a base histórica usa esse nome.
+    """
+    historicos = {}
+    for nome in set(df["mandante"].str.strip()) | set(df["visitante"].str.strip()):
+        historicos[_simplificar(nome)] = nome
+
+    trocas = {}
+
+    def converter(nome: str) -> str:
+        nome = nome.strip()
+        chave = _simplificar(nome)
+        if chave in historicos:
+            novo = historicos[chave]
+        else:
+            # só troca se existir UM único nome parecido (um contido no outro)
+            parecidos = [h for k, h in historicos.items() if chave in k or k in chave]
+            novo = parecidos[0] if len(parecidos) == 1 else nome
+        if novo != nome:
+            trocas[nome] = novo
+        return novo
+
+    novos["mandante"] = novos["mandante"].map(converter)
+    novos["visitante"] = novos["visitante"].map(converter)
+    if trocas:
+        print("Nomes ajustados para o padrão da base histórica:", trocas, "\n")
+    return novos
+
+
+def adicionar_jogos_novos(df: pd.DataFrame) -> pd.DataFrame:
+    """Junta à base histórica os jogos de 2025 em diante, que você digita em data/jogos_novos.csv."""
+    if not ARQUIVO_NOVOS.exists():
+        return df
+    # sep=None deixa o Pandas descobrir sozinho se o separador é vírgula ou ponto e vírgula
+    novos = pd.read_csv(ARQUIVO_NOVOS, sep=None, engine="python")
+    if novos.empty:
+        return df
+
+    novos = padronizar_nomes(novos, df)
+
+    # Avisa se aparecer um nome de time que não existe na base histórica (pode ser erro de grafia)
+    conhecidos = set(df["mandante"].str.strip()) | set(df["visitante"].str.strip())
+    usados = set(novos["mandante"].str.strip()) | set(novos["visitante"].str.strip())
+    desconhecidos = sorted(usados - conhecidos)
+    if desconhecidos:
+        print("ATENÇÃO: nomes que não existem na base histórica (confira a grafia):", desconhecidos, "\n")
+
+    print(f"Jogos novos adicionados: {len(novos)}\n")
+    return pd.concat([df, novos], ignore_index=True)
 
 
 def filtrar_vasco(df: pd.DataFrame) -> pd.DataFrame:
@@ -46,7 +107,6 @@ def adicionar_colunas(jogos: pd.DataFrame) -> pd.DataFrame:
     # Temporada nem sempre é igual ao ano do jogo: o Brasileirão de 2020 atrasou por
     # causa da pandemia e terminou em fevereiro de 2021. Esses jogos pertencem à
     # temporada 2020, então corrigimos aqui.
-    # O Brasileirão de 2020 terminou em fevereiro de 2021
     jogos["temporada"] = jogos["ano"]
     terminou_em_2021 = (jogos["ano"] == 2021) & (jogos["data"] < pd.Timestamp("2021-03-01"))
     jogos.loc[terminou_em_2021, "temporada"] = 2020
@@ -76,7 +136,7 @@ def adicionar_colunas(jogos: pd.DataFrame) -> pd.DataFrame:
 
 
 def main() -> None:
-    df = carregar(ARQUIVO_ENTRADA)
+    df = adicionar_jogos_novos(carregar(ARQUIVO_ENTRADA))
     jogos = adicionar_colunas(filtrar_vasco(df))
 
     jogos.to_csv(ARQUIVO_SAIDA, index=False)

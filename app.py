@@ -6,6 +6,7 @@ import streamlit as st
 from dados import carregar_jogos
 
 ARQUIVO_PROXIMOS = Path(__file__).parent / "data" / "proximos_jogos.csv"
+ARQUIVO_CLASSIFICACAO = Path(__file__).parent / "data" / "classificacao.csv"
 DIAS = ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]
 
 st.set_page_config(page_title="Raio-X do Vasco", layout="wide")
@@ -58,7 +59,30 @@ if ARQUIVO_PROXIMOS.exists():
     st.caption("Datas e horários (de Brasília) podem mudar por decisão da CBF ou das emissoras.")
 else:
     st.info("Arquivo data/proximos_jogos.csv não encontrado.")
+# Classificação completa: lida de data/classificacao.csv
+st.subheader("Classificação do Brasileirão 2026")
+if ARQUIVO_CLASSIFICACAO.exists():
+    classificacao = pd.read_csv(ARQUIVO_CLASSIFICACAO)
+    classificacao = classificacao.rename(columns={
+        "pos": "Pos", "clube": "Clube", "pontos": "P", "jogos": "J", "vitorias": "V",
+        "empates": "E", "derrotas": "D", "gp": "GP", "gc": "GC", "sg": "SG",
+    })
 
+    def destacar_vasco(linha):
+        cor = "background-color: rgba(128, 128, 128, 0.35); font-weight: bold" if linha["Clube"] == "Vasco" else ""
+        return [cor] * len(linha)
+
+    st.dataframe(
+        classificacao.style.apply(destacar_vasco, axis=1),
+        hide_index=True,
+        width="stretch",
+        height=35 * (len(classificacao) + 1) + 3,
+    )
+    st.caption(
+        "Atualizada em 12/11/2026 (34ª rodada). Vasco e Chapecoense têm um jogo a menos. "
+    )
+else:
+    st.info("Arquivo data/classificacao.csv não encontrado.")
 st.subheader("Últimos jogos do time ")
 ultimos = jogos.sort_values("data", ascending=False).head(5).copy()
 ultimos["data"] = ultimos["data"].dt.strftime("%d/%m/%Y")
@@ -72,4 +96,3 @@ st.dataframe(
     width="stretch",
 )
 
-st.caption("Use o menu à esquerda para abrir as outras páginas. Dados: Brasileirão 2003-2026.")

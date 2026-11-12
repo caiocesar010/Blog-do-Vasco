@@ -22,7 +22,7 @@ col2.metric("Vitórias", int(tabela["vitorias"].sum()))
 col3.metric("Pontos", int(tabela["pontos"].sum()))
 col4.metric("Aproveitamento", f"{tabela['pontos'].sum() / (tabela['jogos'].sum() * 3) * 100:.1f}%")
 
-st.caption("O Vasco não aparece em 2009, 2014, 2016 e 2022 porque jogou a Série B, que não está nos dados.")
+st.caption("O Vasco não aparece em 2009, 2014, 2016, 2021 e 2022 porque jogou a Série B, que não está nos dados.")
 
 # Gráfico 1: aproveitamento por temporada
 fig1 = px.bar(tabela, x="temporada", y="aproveitamento",

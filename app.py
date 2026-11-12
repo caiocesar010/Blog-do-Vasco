@@ -20,7 +20,7 @@ vitorias = (jogos["resultado"] == "V").sum()
 aproveitamento = jogos["pontos"].sum() / (total * 3) * 100
 
 col1, col2, col3 = st.columns(3)
-col1.metric("Jogos na base", total)
+col1.metric("Jogos no Brasileirão", total)
 col2.metric("Vitórias", int(vitorias))
 col3.metric("Aproveitamento geral", f"{aproveitamento:.1f}%")
 

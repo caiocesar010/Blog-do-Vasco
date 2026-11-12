@@ -1,48 +1,56 @@
 # Raio-X do Vasco
 
-Site com estatísticas e história do Vasco da Gama, feito em Python (Pandas + Plotly + Streamlit) e atualizado diariamente, como um diário com números.
+Site com estatísticas e história do Vasco da Gama no Campeonato Brasileiro, feito em Python (Pandas + Plotly + Streamlit) e atualizado por mim a cada rodada.
 
-> Projeto em construção.
+**Acesse o site:** https://raio-x-vasco.streamlit.app
+
+## O que tem no site
+
+- **Página inicial:** números do Vasco no Brasileirão atual, próximos jogos, classificação completa e últimos resultados.
+- **Histórico:** desempenho do Vasco em cada temporada desde 2003 (aproveitamento, vitórias, empates, derrotas, gols, casa x fora).
+- **Rivais:** retrospecto contra cada adversário.
+- **Elenco:** jogadores do time profissional por posição.
+- **Títulos:** principais conquistas do clube, com gráfico por década.
 
 ## Estrutura de pastas
 
 ```
 raio-x-vasco/
-├── data/                 # CSVs (histórico do Brasileirão e jogos da temporada)
-├── pages/                # páginas do site (Histórico, Rivais, Temporada, Diário)
-├── posts/                # um arquivo .md por dia para o Diário
-├── explorar_dados.py     # script para conhecer os dados
-├── app.py                # página inicial do site (vem depois)
+├── data/                  # CSVs (histórico, jogos recentes, elenco, títulos, classificação)
+├── pages/                 # páginas do site (Histórico, Rivais, Elenco, Títulos)
+├── app.py                 # página inicial
+├── dados.py               # leitura e resumo dos dados
+├── preparar_dados.py      # monta data/vasco_jogos.csv a partir dos jogos
+├── explorar_dados.py      # script para conhecer os dados
 ├── requirements.txt
 └── README.md
 ```
 
-## Dados
+## Dados e créditos
 
 - Brasileirão 2003–2024: [Brasileirao_Dataset](https://github.com/adaoduque/Brasileirao_Dataset) (crédito ao autor do repositório).
-- Temporada atual: `data/jogos_atual.csv`, atualizado manualmente após cada partida.
+- Jogos de 2025 e 2026, elenco e títulos: compilados de imprensa esportiva (Netvasco, Lance e outros) e podem conter pequenas imprecisões.
+- Classificação do Brasileirão 2026: [ValorFinal](https://valorfinal.com.br/brasileirao/dados-abertos), licença CC BY 4.0.
 
-## Como rodar
+## Como rodar no seu computador
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate           # Windows
+.venv\Scripts\activate.bat       # Windows (cmd)
 source .venv/bin/activate        # Mac/Linux
 pip install -r requirements.txt
-python explorar_dados.py
+streamlit run app.py
 ```
 
-## Roteiro
+## Como atualizar
 
-- [ ] **Etapa 0:** preparar o ambiente (Python, VS Code, pasta, ambiente virtual)
-- [ ] **Etapa 1:** explorar os dados (`explorar_dados.py`)
-- [ ] **Etapa 2:** limpar e filtrar só os jogos do Vasco (resultado e pontos por jogo)
-- [ ] **Etapa 3:** página Histórico (indicadores e gráficos por temporada)
-- [ ] **Etapa 4:** página Rivais (retrospecto por adversário)
-- [ ] **Etapa 5:** página Diário (posts em Markdown)
-- [ ] **Etapa 6:** página Temporada atual (`jogos_atual.csv`)
-- [ ] **Etapa 7:** publicar no Streamlit Cloud e colocar o link aqui
-- [ ] **Depois:** automatizar a atualização com GitHub Actions
+1. Adicione os jogos novos em `data/jogos_novos.csv` e rode `python preparar_dados.py`.
+2. Atualize `data/proximos_jogos.csv` e `data/classificacao.csv`.
+3. Faça `git add .`, `git commit` e `git push`. O site se atualiza sozinho.
+
+## Próximos passos
+
+- Automatizar a atualização dos dados com GitHub Actions.
 
 ## Tecnologias
 

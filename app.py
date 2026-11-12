@@ -31,10 +31,6 @@ col3.metric("Empates", empates)
 col4.metric("Derrotas", derrotas)
 col5.metric("Aproveitamento", f"{aproveitamento:.1f}%")
 
-col1, col2, col3 = st.columns(3)
-col1.metric("Jogos no Brasileirão", total)
-col2.metric("Vitórias", int(vitorias))
-col3.metric(f"Aproveitamento no Brasileirão {temporada_atual}", f"{aproveitamento:.1f}%")
 
 # Próximos jogos: lidos de data/proximos_jogos.csv
 st.subheader("Próximos jogos")

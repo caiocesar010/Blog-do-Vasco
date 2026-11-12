@@ -17,12 +17,14 @@ st.write("Números e história do Vasco da Gama no Campeonato Brasileiro, atuali
 
 total = len(jogos)
 vitorias = (jogos["resultado"] == "V").sum()
-aproveitamento = jogos["pontos"].sum() / (total * 3) * 100
+temporada_atual = int(jogos["temporada"].max())
+atual = jogos[jogos["temporada"] == temporada_atual]
+aproveitamento = atual["pontos"].sum() / (len(atual) * 3) * 100
 
 col1, col2, col3 = st.columns(3)
 col1.metric("Jogos no Brasileirão", total)
 col2.metric("Vitórias", int(vitorias))
-col3.metric("Aproveitamento geral", f"{aproveitamento:.1f}%")
+col3.metric(f"Aproveitamento no Brasileirão {temporada_atual}", f"{aproveitamento:.1f}%")
 
 # Próximos jogos: lidos de data/proximos_jogos.csv
 st.subheader("Próximos jogos")

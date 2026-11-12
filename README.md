@@ -42,16 +42,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Como atualizar
-
-1. Adicione os jogos novos em `data/jogos_novos.csv` e rode `python preparar_dados.py`.
-2. Atualize `data/proximos_jogos.csv` e `data/classificacao.csv`.
-3. Faça `git add .`, `git commit` e `git push`. O site se atualiza sozinho.
-
-## Próximos passos
-
-- Automatizar a atualização dos dados com GitHub Actions.
-
 ## Tecnologias
 
 Python, Pandas, Plotly, Streamlit.

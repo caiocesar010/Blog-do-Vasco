@@ -48,10 +48,11 @@ st.dataframe(
 
 # Gráfico: títulos por década
 por_decada = conquistas.groupby(["decada", "categoria"]).size().reset_index(name="titulos")
+ordem_decadas = sorted(por_decada["decada"].unique())
 fig = px.bar(por_decada, x="decada", y="titulos", color="categoria",
              title="Títulos por década",
              labels={"decada": "Década", "titulos": "Títulos", "categoria": "Categoria"},
-             category_orders={"categoria": CATEGORIAS})
+             category_orders={"categoria": CATEGORIAS, "decada": ordem_decadas})
 fig.update_xaxes(type="category")
 st.plotly_chart(fig, width="stretch")
 
@@ -65,10 +66,4 @@ st.dataframe(
     ),
     hide_index=True,
     width="stretch",
-)
-
-st.caption(
-    "Fontes: Netvasco (lista atualizada em 24/12/2024) e Lance. A lista traz os principais títulos "
-    "e não inclui torneios menores nem taças de turno. Em 2025 o Vasco foi vice da Copa do Brasil. "
-    "Se houver conquista nova, adicione o ano em data/titulos.csv."
 )

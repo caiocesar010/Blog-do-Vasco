@@ -44,10 +44,6 @@ resumo = pd.DataFrame({
 fig = px.bar(resumo, x="Resultado", y="Jogos", title=f"Vasco x {adversario}")
 st.plotly_chart(fig, width="stretch")
 
-st.subheader("Todos os jogos")
-tabela = confrontos[["data", "temporada", "local", "gols_pro", "gols_contra", "resultado"]].copy()
-tabela["data"] = tabela["data"].dt.strftime("%d/%m/%Y")
-st.dataframe(tabela, hide_index=True, width="stretch")
 
 with st.expander("Ver o retrospecto contra todos os adversários"):
     st.dataframe(ranking, hide_index=True, width="stretch")

@@ -15,11 +15,21 @@ jogos = carregar_jogos()
 st.title("Raio-X do Vasco")
 st.write("Números e história do Vasco da Gama no Campeonato Brasileiro, atualizados aos poucos.")
 
-total = len(jogos)
-vitorias = (jogos["resultado"] == "V").sum()
 temporada_atual = int(jogos["temporada"].max())
 atual = jogos[jogos["temporada"] == temporada_atual]
-aproveitamento = atual["pontos"].sum() / (len(atual) * 3) * 100
+
+total = len(atual)
+vitorias = int((atual["resultado"] == "V").sum())
+empates = int((atual["resultado"] == "E").sum())
+derrotas = int((atual["resultado"] == "D").sum())
+aproveitamento = atual["pontos"].sum() / (total * 3) * 100
+
+col1, col2, col3, col4, col5 = st.columns(5)
+col1.metric(f"Jogos no Brasileirão {temporada_atual}", total)
+col2.metric("Vitórias", vitorias)
+col3.metric("Empates", empates)
+col4.metric("Derrotas", derrotas)
+col5.metric("Aproveitamento", f"{aproveitamento:.1f}%")
 
 col1, col2, col3 = st.columns(3)
 col1.metric("Jogos no Brasileirão", total)

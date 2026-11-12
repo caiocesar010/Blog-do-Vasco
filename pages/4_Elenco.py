@@ -28,12 +28,11 @@ elenco = pd.read_csv(ARQUIVO)
 elenco["grupo"] = elenco["posicao"].map(GRUPOS)
 elenco["observacao"] = elenco["observacao"].fillna("")
 # Camisa vazia (reforço sem número definido) aparece em branco em vez de <NA>
-elenco["numero"] = elenco["numero"].astype("Int64").astype(str).replace("<NA>", "")
+elenco["numero"] = elenco["numero"].apply(lambda n: "" if pd.isna(n) else str(int(n)))
 
 st.info(
     "Lista montada a partir de matérias de imprensa (Netvasco e Lance) publicadas entre abril e "
     "setembro de 2026. Não inclui jogadores da base nem possíveis saídas recentes. "
-    "Para atualizar, edite o arquivo data/elenco.csv."
 )
 
 colunas = st.columns(len(ORDEM) + 1)

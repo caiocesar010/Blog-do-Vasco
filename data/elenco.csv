@@ -1,29 +1,33 @@
 numero,nome,posicao,observacao
 1,Léo Jardim,Goleiro,
 13,Daniel Fuzato,Goleiro,
+37,Pablo,Goleiro,Cria da Colina
 96,Paulo Henrique,Lateral-direito,
 2,Puma Rodríguez,Lateral-direito,
+60,João Vitor,Lateral-direito,Cria da Colina
 6,Lucas Piton,Lateral-esquerdo,
 66,Cuiabano,Lateral-esquerdo,Emprestado pelo Nottingham Forest até o fim da temporada
-,Paulinho,Lateral-esquerdo,Reforço da janela do meio de 2026
+29,Paulinho,Lateral-esquerdo,Reforço da janela do meio de 2026
 46,Carlos Cuesta,Zagueiro,Emprestado até o fim de 2026 com opção de compra
 30,Robert Renan,Zagueiro,Emprestado até o fim de 2026 com opção de compra
 4,Alan Saldivia,Zagueiro,Contratado em definitivo em 2026
 43,Lucas Freitas,Zagueiro,
-,Gabriel Pereira,Zagueiro,Emprestado até junho de 2027 com opção de compra
-88,Barros,Volante,
+26,Gabriel Pereira,Zagueiro,Emprestado até junho de 2027 com opção de compra
+64,Walace Fernandes,Zagueiro,Cria da Colina
+88,Cauã Barros,Volante,Cria da Colina
 3,Tchê Tchê,Volante,
-25,Hugo Moura,Volante,
+83,Ramon Rique,Volante,Cria da Colina
 8,Jair,Volante,Contrato até o fim de 2026
-,Santiago Sosa,Volante,Reforço da janela do meio de 2026
+5,Santiago Sosa,Volante,Reforço da janela do meio de 2026
 10,Johan Rojas,Meia,Emprestado pelo Monterrey até o fim da temporada
-9,Matheus França,Meia,
-,Alan Lescano,Meia,Reforço da janela do meio de 2026
+23,Thiago Mendes,Meia,
+22,Alan Lescano,Meia,Reforço da janela do meio de 2026
 11,Andrés Gómez,Atacante,
 17,Nuno Moreira,Atacante,
 20,Brenner,Atacante,Contratado em 2026 (Udinese)
 7,David,Atacante,
 18,Marino Hinestroza,Atacante,Contratado em 2026
 77,Spinelli,Atacante,Contratado em 2026 (Independiente del Valle)
-,Facundo Colídio,Atacante,Reforço da janela do meio de 2026
-,Bruno Duarte,Atacante,Reforço da janela do meio de 2026
+9,Facundo Colídio,Atacante,Reforço da janela do meio de 2026
+19,Bruno Duarte,Atacante,Reforço da janela do meio de 2026
+28,Adson,Atacante

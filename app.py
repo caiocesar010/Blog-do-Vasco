@@ -51,11 +51,15 @@ if ARQUIVO_PROXIMOS.exists():
 else:
     st.info("Arquivo data/proximos_jogos.csv não encontrado.")
 
-st.subheader("Últimos jogos da base")
+st.subheader("Últimos jogos do time ")
 ultimos = jogos.sort_values("data", ascending=False).head(5).copy()
 ultimos["data"] = ultimos["data"].dt.strftime("%d/%m/%Y")
 st.dataframe(
-    ultimos[["data", "local", "adversario", "gols_pro", "gols_contra", "resultado"]],
+    ultimos[["data", "local", "adversario", "gols_pro", "gols_contra", "resultado"]].rename(
+        columns={"data": "Data", "local": "Local", "adversario": "Adversário",
+                 "gols_pro": "Gols do Vasco", "gols_contra": "Gols do adversário",
+                 "resultado": "Resultado"}
+    ),
     hide_index=True,
     width="stretch",
 )

@@ -4,6 +4,11 @@ Site com estatísticas e história do Vasco da Gama no Campeonato Brasileiro, fe
 
 **Acesse o site:** https://raio-x-vasco.streamlit.app
 
+
+https://github.com/user-attachments/assets/0d0b2144-25f0-4c1a-858e-92325a659d2b
+
+
+
 ## O que tem no site
 
 - **Página inicial:** números do Vasco no Brasileirão atual, próximos jogos, classificação completa e últimos resultados.
